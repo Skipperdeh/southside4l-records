@@ -1,94 +1,28 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Southside 4L Records</title>
-
-  <link rel="icon" href="favicon-32x32.png" sizes="32x32" />
-  <meta property="og:title" content="Southside 4L Records" />
-  <meta property="og:description" content="Official site representing real southern talent – artists, music, events & merch." />
-  <meta property="og:image" content="A_digital_graphic_design_visual_for_Southside_4L_R.png" />
-  <meta property="og:url" content="https://skipperdeh.github.io/southside4l-records" />
-  <meta property="og:type" content="website" />
-
-  <script src="https://cdn.tailwindcss.com"></script>
-  <link rel="stylesheet" href="style.css" />
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
 </head>
 <body class="bg-black text-white font-sans">
+  <nav class="p-6 flex gap-6 text-lg">
+    <a href="index.html" class="hover:text-red-500">Home</a>
+    <a href="merch.html" class="hover:text-red-500">Merch</a>
+    <a href="#" class="hover:text-red-500">About</a>
+  </nav>
 
-  <!-- Mobile-Friendly Header -->
-  <header class="bg-gray-900 px-4 py-4 flex flex-col sm:flex-row items-center justify-between">
-    <img src="SOUTHSIDE 4L LOGO.jpeg" alt="Logo" class="h-14 mb-4 sm:mb-0">
-    <nav>
-      <ul class="flex flex-col sm:flex-row items-center gap-4 text-red-500 font-bold text-sm sm:text-base">
-        <li><a href="#about">About</a></li>
-        <li><a href="#artists">Artists</a></li>
-        <li><a href="#media">Media</a></li>
-        <li><a href="#contact">Contact</a></li>
-        <li><a href="merch.html">Merch</a></li>
-
-      </ul>
-    </nav>
+  <header class="text-center py-24">
+    <h1 class="text-5xl font-bold text-red-600">Southside 4L Records</h1>
+    <p class="text-gray-400 mt-4 text-xl">Official Hub for Urban Music & Merch</p>
+    <a href="merch.html"
+       class="mt-8 inline-block bg-red-600 text-white px-6 py-3 rounded-lg hover:bg-red-700">Shop Merch</a>
   </header>
 
-  <!-- Hero -->
-  <section id="hero" class="text-center py-20 px-6 bg-gradient-to-b from-gray-800 to-black">
-    <h1 class="text-4xl sm:text-5xl md:text-6xl font-extrabold text-white mb-4">Welcome to Southside 4L Records</h1>
-    <p class="text-lg text-gray-300">Home of real talent. Built from the South. 4L.</p>
-  </section>
-
-  <!-- About -->
-  <section id="about" class="py-16 px-6 max-w-4xl mx-auto">
-    <h2 class="text-3xl font-bold text-red-500 mb-4">About Us</h2>
-    <p class="text-gray-200 leading-relaxed text-base md:text-lg">
-      Southside 4L Records is dedicated to discovering, producing, and promoting emerging artists with a unique sound and story.
-    </p>
-  </section>
-
-  <!-- Artists -->
-  <section id="artists" class="py-16 px-6 bg-gray-800">
-    <h2 class="text-3xl font-bold text-red-500 text-center mb-10">Our Artists</h2>
-    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 text-center">
-      <div class="bg-gray-900 p-6 rounded-lg">
-        <h3 class="text-xl font-semibold mb-2">Artist 1</h3>
-        <p class="text-gray-400">Hip-Hop / Rap</p>
-      </div>
-      <div class="bg-gray-900 p-6 rounded-lg">
-        <h3 class="text-xl font-semibold mb-2">Artist 2</h3>
-        <p class="text-gray-400">Trap / Soul</p>
-      </div>
-      <div class="bg-gray-900 p-6 rounded-lg">
-        <h3 class="text-xl font-semibold mb-2">Artist 3</h3>
-        <p class="text-gray-400">R&B / Fusion</p>
-      </div>
-    </div>
-  </section>
-
-  <!-- Media -->
-  <section id="media" class="py-16 px-6 max-w-6xl mx-auto">
-    <h2 class="text-3xl font-bold text-red-500 mb-8 text-center">Media Gallery</h2>
-    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
-      <img src="https://via.placeholder.com/300x200" alt="Media 1" class="rounded-lg w-full object-cover">
-      <img src="https://via.placeholder.com/300x200" alt="Media 2" class="rounded-lg w-full object-cover">
-      <img src="https://via.placeholder.com/300x200" alt="Media 3" class="rounded-lg w-full object-cover">
-    </div>
-  </section>
-
-  <!-- Contact -->
-  <section id="contact" class="py-16 px-6 bg-gray-800">
-    <h2 class="text-3xl font-bold text-red-500 mb-6 text-center">Contact Us</h2>
-    <form class="max-w-xl mx-auto grid gap-4">
-      <input type="text" placeholder="Your Name" class="p-3 rounded bg-gray-900 text-white border border-gray-700" required>
-      <input type="email" placeholder="Your Email" class="p-3 rounded bg-gray-900 text-white border border-gray-700" required>
-      <textarea placeholder="Your Message" rows="4" class="p-3 rounded bg-gray-900 text-white border border-gray-700" required></textarea>
-      <button type="submit" class="bg-red-600 text-white py-2 rounded hover:bg-red-700 transition">Send Message</button>
-    </form>
-  </section>
-
-  <!-- Footer -->
-  <footer class="text-center py-6 bg-gray-900 text-sm text-gray-500">
-    &copy; 2025 Southside 4L Records. All rights reserved.
+  <footer class="text-center py-12 text-gray-500 text-sm">
+    © 2025 Southside 4L Records
   </footer>
 </body>
 </html>

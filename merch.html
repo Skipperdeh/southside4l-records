@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -7,15 +6,16 @@
     <title>Merch | Southside 4L Records</title>
     <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
   </head>
-  <body class="bg-black text-white font-sans">
-    <header class="text-center py-10">
+  <body class="bg-black text-white font-sans bg-fixed" style="background-image: url('images/bg.jpg'); background-size: cover; background-position: center;">
+    <header class="text-center py-10 bg-black bg-opacity-70">
       <h1 class="text-4xl font-bold text-red-600">Southside 4L Records</h1>
       <p class="text-gray-400 mt-2 text-lg">Official Merch Drop</p>
     </header>
 
-    <section class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 px-6 pb-20">
+    <section class="max-w-7xl mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 px-6 pb-20">
       <!-- Product Card -->
-      <div class="bg-gray-900 rounded-2xl shadow-lg overflow-hidden">
+      <div class="relative bg-gray-900 rounded-2xl shadow-lg overflow-hidden transform hover:scale-105 transition duration-300">
+        <div class="absolute top-2 left-2 bg-red-600 text-xs px-2 py-1 rounded">🔥 Best Seller</div>
         <img src="/images/merch-tshirt.png" alt="T-Shirt" class="w-full h-60 object-cover">
         <div class="p-4">
           <h2 class="text-xl font-bold">4L T-Shirt</h2>
@@ -24,8 +24,8 @@
         </div>
       </div>
 
-      <!-- Repeat with more product cards -->
-      <div class="bg-gray-900 rounded-2xl shadow-lg overflow-hidden">
+      <!-- More Product Cards -->
+      <div class="bg-gray-900 rounded-2xl shadow-lg overflow-hidden transform hover:scale-105 transition duration-300">
         <img src="/images/merch-hoodie.png" alt="Hoodie" class="w-full h-60 object-cover">
         <div class="p-4">
           <h2 class="text-xl font-bold">4L Hoodie</h2>
@@ -34,7 +34,7 @@
         </div>
       </div>
 
-      <div class="bg-gray-900 rounded-2xl shadow-lg overflow-hidden">
+      <div class="bg-gray-900 rounded-2xl shadow-lg overflow-hidden transform hover:scale-105 transition duration-300">
         <img src="/images/merch-cap.png" alt="Snapback Cap" class="w-full h-60 object-cover">
         <div class="p-4">
           <h2 class="text-xl font-bold">Snapback Cap</h2>
@@ -43,7 +43,7 @@
         </div>
       </div>
 
-      <div class="bg-gray-900 rounded-2xl shadow-lg overflow-hidden">
+      <div class="bg-gray-900 rounded-2xl shadow-lg overflow-hidden transform hover:scale-105 transition duration-300">
         <img src="/images/merch-tote.png" alt="Tote Bag" class="w-full h-60 object-cover">
         <div class="p-4">
           <h2 class="text-xl font-bold">Tote Bag</h2>
@@ -52,7 +52,7 @@
         </div>
       </div>
 
-      <div class="bg-gray-900 rounded-2xl shadow-lg overflow-hidden">
+      <div class="bg-gray-900 rounded-2xl shadow-lg overflow-hidden transform hover:scale-105 transition duration-300">
         <img src="/images/merch-tray.png" alt="Rolling Tray" class="w-full h-60 object-cover">
         <div class="p-4">
           <h2 class="text-xl font-bold">Rolling Tray</h2>
@@ -61,7 +61,7 @@
         </div>
       </div>
 
-      <div class="bg-gray-900 rounded-2xl shadow-lg overflow-hidden">
+      <div class="bg-gray-900 rounded-2xl shadow-lg overflow-hidden transform hover:scale-105 transition duration-300">
         <img src="/images/merch-case.png" alt="Phone Case" class="w-full h-60 object-cover">
         <div class="p-4">
           <h2 class="text-xl font-bold">Phone Case</h2>
@@ -71,7 +71,7 @@
       </div>
     </section>
 
-    <footer class="text-center py-6 text-gray-500 text-sm">
+    <footer class="text-center py-6 text-gray-400 text-sm bg-black bg-opacity-70">
       © 2025 Southside 4L Records. All rights reserved.
     </footer>
   </body>
